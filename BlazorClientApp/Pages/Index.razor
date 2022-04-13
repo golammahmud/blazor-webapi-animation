@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+
+
+    <Animate Animation="Animations.FadeLeft" Duration="TimeSpan.FromSeconds(0.5)" Delay="TimeSpan.FromSeconds(.5)">
+        <MudFab Color="Color.Primary" StartIcon="@Icons.Material.Filled.Add" />
+    </Animate>
+
+	<button class="btn btn-outliner-info" @onclick="RunAnimation">zoomin</button>
+    	<Animate Animation="Animations.ZoomInUp" Duration="TimeSpan.FromSeconds(0.5)" @ref="myAnim" IsManual="true">
+		<Counter></Counter>
+	    </Animate>
+
+
+
+		
+@code{
+            
+private Animate myAnim;
+
+private void RunAnimation()
+{
+	myAnim.Run();
+}
+			
+}

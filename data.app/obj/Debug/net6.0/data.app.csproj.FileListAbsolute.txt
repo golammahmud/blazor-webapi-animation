@@ -1,0 +1,13 @@
+H:\asp dot net\FetchApiBlazor\data.app\bin\Debug\net6.0\data.app.deps.json
+H:\asp dot net\FetchApiBlazor\data.app\bin\Debug\net6.0\data.app.runtimeconfig.json
+H:\asp dot net\FetchApiBlazor\data.app\bin\Debug\net6.0\data.app.dll
+H:\asp dot net\FetchApiBlazor\data.app\bin\Debug\net6.0\ref\data.app.dll
+H:\asp dot net\FetchApiBlazor\data.app\bin\Debug\net6.0\data.app.pdb
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.GeneratedMSBuildEditorConfig.editorconfig
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.AssemblyInfoInputs.cache
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.AssemblyInfo.cs
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.csproj.CoreCompileInputs.cache
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.dll
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\ref\data.app.dll
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.pdb
+H:\asp dot net\FetchApiBlazor\data.app\obj\Debug\net6.0\data.app.genruntimeconfig.cache
