@@ -1,0 +1,18 @@
+﻿@page "/test"
+@inject JSRuntime _jsRuntimes
+
+
+<h3 class="text-md-center bg-gradient">CollapsibleRor</h3>
+
+
+<button type="button" class="collapsible text-danger" @onclick="handleclick">Open Collapsible</button>
+<div class="content">
+    <p>Lorem ipsum...</p>
+</div>
+@code {
+    
+    async Task  handleclick()
+    {
+        await _jsRuntimes.InvokeVoidAsync("COllapsiable");
+    }
+}

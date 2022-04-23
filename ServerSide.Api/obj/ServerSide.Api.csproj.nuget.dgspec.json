@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\ServerSide.Api.csproj": {}
+    "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\ServerSide.Api.csproj": {}
   },
   "projects": {
-    "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj": {
+    "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj",
+        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj",
         "projectName": "BlazorClientApp",
-        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj",
+        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj",
         "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\obj\\",
+        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj": {
-                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj"
+              "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj": {
+                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "BlazorAnimate": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "BlazorInputFile": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -68,9 +72,17 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "MudBlazor": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Syncfusion.Blazor.Navigations": {
+              "target": "Package",
+              "version": "[20.1.0.50, )"
             }
           },
           "imports": [
@@ -91,18 +103,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj": {
+    "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj",
+        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj",
         "projectName": "data.app",
-        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj",
+        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj",
         "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\data.app\\obj\\",
+        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,18 +183,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj": {
+    "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj",
+        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj",
         "projectName": "Models.App",
-        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj",
+        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj",
         "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\obj\\",
+        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -225,18 +237,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\ServerSide.Api.csproj": {
+    "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\ServerSide.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\ServerSide.Api.csproj",
+        "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\ServerSide.Api.csproj",
         "projectName": "ServerSide.Api",
-        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\ServerSide.Api.csproj",
+        "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\ServerSide.Api.csproj",
         "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\obj\\",
+        "outputPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,14 +265,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj": {
-                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj"
+              "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj": {
+                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj"
               },
-              "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj": {
-                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj"
+              "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj": {
+                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj"
               },
-              "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj": {
-                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj"
+              "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj": {
+                "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj"
               }
             }
           }
@@ -298,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

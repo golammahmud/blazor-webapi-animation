@@ -10,3 +10,15 @@ H:\asp dot net\FetchApiBlazor\Models.App\obj\Debug\net6.0\Models.App.dll
 H:\asp dot net\FetchApiBlazor\Models.App\obj\Debug\net6.0\ref\Models.App.dll
 H:\asp dot net\FetchApiBlazor\Models.App\obj\Debug\net6.0\Models.App.pdb
 H:\asp dot net\FetchApiBlazor\Models.App\obj\Debug\net6.0\Models.App.csproj.AssemblyReference.cache
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\bin\Debug\net6.0\Models.App.deps.json
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\bin\Debug\net6.0\Models.App.dll
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\bin\Debug\net6.0\Models.App.pdb
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.GeneratedMSBuildEditorConfig.editorconfig
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.AssemblyInfoInputs.cache
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.AssemblyInfo.cs
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.csproj.CoreCompileInputs.cache
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.dll
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\ref\Models.App.dll
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.pdb
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\Models.App.csproj.AssemblyReference.cache
+H:\asp dot net\FetchApiBlazor\blazor-webapi-animation\Models.App\obj\Debug\net6.0\refint\Models.App.dll

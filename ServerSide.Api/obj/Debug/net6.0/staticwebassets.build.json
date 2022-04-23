@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "QTDr+n5mS63g1QTUPC2cACtIMfvtuvqq0n2ipA1R/BU=",
+  "Hash": "pv7wpChL1Yjdlf54m8WqQ3bzd0q3O2lgoBcDmAT9r3o=",
   "Source": "ServerSide.Api",
   "BasePath": "_content/ServerSide.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj",
       "Version": 2,
       "Source": "BlazorClientApp",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,102 @@
     {
       "Name": "BlazorClientApp\\wwwroot",
       "Source": "BlazorClientApp",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorClientApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazoranimate\\3.0.0\\staticwebassets\\aos.css",
+      "SourceId": "BlazorAnimate",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazoranimate\\3.0.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorAnimate",
+      "RelativePath": "aos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazoranimate\\3.0.0\\staticwebassets\\aos.css"
+    },
+    {
+      "Identity": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazoranimate\\3.0.0\\staticwebassets\\blazorAnimateInterop.js",
+      "SourceId": "BlazorAnimate",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazoranimate\\3.0.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorAnimate",
+      "RelativePath": "blazorAnimateInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazoranimate\\3.0.0\\staticwebassets\\blazorAnimateInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazorinputfile\\0.2.0\\staticwebassets\\inputfile.js",
+      "SourceId": "BlazorInputFile",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazorinputfile\\0.2.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorInputFile",
+      "RelativePath": "inputfile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\blazorinputfile\\0.2.0\\staticwebassets\\inputfile.js"
+    },
+    {
+      "Identity": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorClientApp.bundle.scp.css",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "BlazorClientApp.bundle.scp.css",
       "AssetKind": "All",
@@ -43,13 +128,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorClientApp.bundle.scp.css"
+      "OriginalItemSpec": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorClientApp.bundle.scp.css"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -63,10 +148,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -80,10 +165,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -97,10 +182,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -114,10 +199,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -131,10 +216,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -148,10 +233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -165,10 +250,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -182,10 +267,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -199,10 +284,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -216,10 +301,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -233,10 +318,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\css\\site.css",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\css\\site.css",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -250,10 +335,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\favicon.ico",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\favicon.ico",
       "SourceId": "BlazorClientApp",
       "SourceType": "Project",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\wwwroot\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\wwwroot\\",
       "BasePath": "_content/BlazorClientApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -267,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerSide.Api.styles.css",
+      "Identity": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerSide.Api.styles.css",
       "SourceId": "ServerSide.Api",
       "SourceType": "Computed",
-      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ServerSide.Api",
       "RelativePath": "ServerSide.Api.styles.css",
       "AssetKind": "All",
@@ -281,7 +366,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "H:\\asp dot net\\FetchApiBlazor\\ServerSide.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerSide.Api.styles.css"
+      "OriginalItemSpec": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\ServerSide.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerSide.Api.styles.css"
     }
   ]
 }

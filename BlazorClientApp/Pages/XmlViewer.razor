@@ -1,0 +1,8 @@
+﻿@page "/xml"
+@inherits XmlViewerBase
+
+<SfTreeView TValue="MailItem">
+    <TreeViewFieldsSettings TValue="MailItem" Id="Id" DataSource="@MyFolder" Text="FolderName" ParentID="ParentId" HasChildren="HasSubFolders" Expanded="Expanded"></TreeViewFieldsSettings>
+</SfTreeView>
+
+

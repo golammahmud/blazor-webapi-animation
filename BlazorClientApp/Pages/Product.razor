@@ -1,0 +1,32 @@
+﻿@page "/product"
+@inherits ProductBase
+<h3>Products</h3>
+@if (Products == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var item in Products)
+      {
+     <tr>
+      <th scope="row">@item.Id</th>
+      <td>@item.Name</td>
+      <td>@item.Type</td>      
+    </tr>
+      }
+   
+   
+  </tbody>
+</table>
+}

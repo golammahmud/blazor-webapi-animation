@@ -2020,11 +2020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj",
+      "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj",
       "projectName": "data.app",
-      "projectPath": "H:\\asp dot net\\FetchApiBlazor\\data.app\\data.app.csproj",
+      "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\data.app.csproj",
       "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-      "outputPath": "H:\\asp dot net\\FetchApiBlazor\\data.app\\obj\\",
+      "outputPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\data.app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2093,7 +2093,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

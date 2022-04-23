@@ -1,3 +1,25 @@
+/* _content/BlazorClientApp/Pages/Product.razor.rz.scp.css */
+.spinner[b-tygol0tb0w] {
+    border: 16px solid silver;
+    border-top: 16px solid #337AB7;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin-b-tygol0tb0w 700ms linear infinite;
+    top: 40%;
+    left: 55%;
+    position: absolute;
+}
+
+@keyframes spin-b-tygol0tb0w {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
 /* _content/BlazorClientApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-i89aif1f6a] {
     position: relative;

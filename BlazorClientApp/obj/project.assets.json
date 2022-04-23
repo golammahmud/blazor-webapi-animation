@@ -22,6 +22,25 @@
           "buildMultiTargeting/BlazorAnimate.props": {}
         }
       },
+      "BlazorInputFile/0.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0-preview3.19555.2",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0-preview3.19555.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/BlazorInputFile.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/BlazorInputFile.dll": {}
+        },
+        "build": {
+          "buildTransitive/BlazorInputFile.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorInputFile.props": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -173,7 +192,7 @@
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -478,6 +497,7 @@
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         },
         "build": {
+          "build/Microsoft.Extensions.Logging.Abstractions.targets": {},
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
@@ -664,6 +684,190 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/MudBlazor.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Buttons/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Buttons.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Buttons.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.Core/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Syncfusion.Licensing": "20.1.0.50",
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Core.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Data/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Data.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Data.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Data.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Inputs/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "20.1.0.50",
+          "Syncfusion.Blazor.Data": "20.1.0.50",
+          "Syncfusion.Blazor.Popups": "20.1.0.50",
+          "Syncfusion.Blazor.Spinner": "20.1.0.50",
+          "Syncfusion.Blazor.SplitButtons": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Inputs.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Inputs.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Inputs.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Inputs.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Lists/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.1.0.50",
+          "Syncfusion.Blazor.Core": "20.1.0.50",
+          "Syncfusion.Blazor.Data": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Lists.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Lists.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Lists.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Lists.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Navigations/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.1.0.50",
+          "Syncfusion.Blazor.Core": "20.1.0.50",
+          "Syncfusion.Blazor.Data": "20.1.0.50",
+          "Syncfusion.Blazor.Inputs": "20.1.0.50",
+          "Syncfusion.Blazor.Lists": "20.1.0.50",
+          "Syncfusion.Blazor.Popups": "20.1.0.50",
+          "Syncfusion.Blazor.Spinner": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Navigations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Navigations.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Navigations.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Navigations.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Popups/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.1.0.50",
+          "Syncfusion.Blazor.Core": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Popups.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Popups.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Popups.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Popups.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Spinner/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Spinner.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Spinner.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Spinner.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Spinner.props": {}
+        }
+      },
+      "Syncfusion.Blazor.SplitButtons/20.1.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.1.0.50",
+          "Syncfusion.Blazor.Core": "20.1.0.50",
+          "Syncfusion.Blazor.Popups": "20.1.0.50",
+          "Syncfusion.Blazor.Spinner": "20.1.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.SplitButtons.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.SplitButtons.dll": {}
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.SplitButtons.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.SplitButtons.props": {}
+        }
+      },
+      "Syncfusion.Licensing/20.1.0.50": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
         }
       },
       "System.Collections.Immutable/6.0.0": {
@@ -886,6 +1090,43 @@
           }
         }
       },
+      "System.Text.Encodings.Web/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Windows.Extensions/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -933,6 +1174,24 @@
         "lib/netstandard2.0/BlazorAnimate.dll",
         "staticwebassets/aos.css",
         "staticwebassets/blazorAnimateInterop.js"
+      ]
+    },
+    "BlazorInputFile/0.2.0": {
+      "sha512": "wsPTwoA9fkHOxjEh0W0brNeTaVBaMCFwfBLehbRhfW+RzlIrYtlJ5qFpT5f377Ej6ELk+xeoUrkDBx9c8JF7DQ==",
+      "type": "package",
+      "path": "blazorinputfile/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazorinputfile.0.2.0.nupkg.sha512",
+        "blazorinputfile.nuspec",
+        "build/BlazorInputFile.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BlazorInputFile.props",
+        "buildTransitive/BlazorInputFile.props",
+        "lib/netstandard2.0/BlazorInputFile.dll",
+        "lib/netstandard2.1/BlazorInputFile.dll",
+        "staticwebassets/inputfile.js"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -1236,10 +1495,10 @@
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1252,6 +1511,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1261,7 +1521,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -2093,6 +2353,286 @@
         "staticwebassets/MudBlazor.min.js"
       ]
     },
+    "Syncfusion.Blazor.Buttons/20.1.0.50": {
+      "sha512": "oeNbpfz0aUt+ER4VjUPoxgYBJiI4pl8IQKe6v74gWDw4Jy+9NHQJ4+xbtjqTLIw+TAFEN5tYvCjGZDglt9U6Hg==",
+      "type": "package",
+      "path": "syncfusion.blazor.buttons/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net5.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/net5.0/Syncfusion.Blazor.Buttons.xml",
+        "lib/net6.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/net6.0/Syncfusion.Blazor.Buttons.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Buttons.xml",
+        "syncfusion.blazor.buttons.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.buttons.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Core/20.1.0.50": {
+      "sha512": "DmPpgux0aGgKAB1bHBDz4SZUC5rviLK5q9DQnK/vB+uVvc7CR1tXHygoENdqIjcQ4ecXYpfZKujEoEspPEyfWA==",
+      "type": "package",
+      "path": "syncfusion.blazor.core/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Core.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Core.props",
+        "buildTransitive/Syncfusion.Blazor.Core.props",
+        "lib/net5.0/Syncfusion.Blazor.Core.dll",
+        "lib/net5.0/Syncfusion.Blazor.Core.xml",
+        "lib/net6.0/Syncfusion.Blazor.Core.dll",
+        "lib/net6.0/Syncfusion.Blazor.Core.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Core.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Core.xml",
+        "staticwebassets/scripts/compression-dc8eab.min.js",
+        "staticwebassets/scripts/excelexport-dc8eab.min.js",
+        "staticwebassets/scripts/fileutils-dc8eab.min.js",
+        "staticwebassets/scripts/pdfexport-dc8eab.min.js",
+        "staticwebassets/scripts/popup-dc8eab.min.js",
+        "staticwebassets/scripts/popupsbase-dc8eab.min.js",
+        "staticwebassets/scripts/sf-import-dc8eab.min.js",
+        "staticwebassets/scripts/sf-import-ie-dc8eab.min.js",
+        "staticwebassets/scripts/sf-svg-export-dc8eab.min.js",
+        "staticwebassets/scripts/svgbase-dc8eab.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-dc8eab.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-extended-dc8eab.min.js",
+        "staticwebassets/scripts/syncfusion-blazor.min.js",
+        "syncfusion.blazor.core.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Data/20.1.0.50": {
+      "sha512": "xo5cOMnN2sysSDoYvOYO5PgGBaRgH6wVQ7rM51WvCK2MDrtV35H5zYKHTWqD3sfv9ms+/XqN+gbH3dBL7mIURw==",
+      "type": "package",
+      "path": "syncfusion.blazor.data/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Data.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Data.props",
+        "buildTransitive/Syncfusion.Blazor.Data.props",
+        "lib/net5.0/Syncfusion.Blazor.Data.dll",
+        "lib/net5.0/Syncfusion.Blazor.Data.xml",
+        "lib/net6.0/Syncfusion.Blazor.Data.dll",
+        "lib/net6.0/Syncfusion.Blazor.Data.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Data.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Data.xml",
+        "staticwebassets/scripts/data-dc8eab.min.js",
+        "syncfusion.blazor.data.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.data.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Inputs/20.1.0.50": {
+      "sha512": "QVHyJeByxpu8PybNqFFHP3WdLyt+Cum1bvIJG/3UFBqQksxwgaN3zz4rhO4I2oARKnU9B4jgsLCW1DITxxgH/w==",
+      "type": "package",
+      "path": "syncfusion.blazor.inputs/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Inputs.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Inputs.props",
+        "buildTransitive/Syncfusion.Blazor.Inputs.props",
+        "lib/net5.0/Syncfusion.Blazor.Inputs.dll",
+        "lib/net5.0/Syncfusion.Blazor.Inputs.xml",
+        "lib/net6.0/Syncfusion.Blazor.Inputs.dll",
+        "lib/net6.0/Syncfusion.Blazor.Inputs.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Inputs.xml",
+        "staticwebassets/scripts/sf-colorpicker-dc8eab.min.js",
+        "staticwebassets/scripts/sf-maskedtextbox-dc8eab.min.js",
+        "staticwebassets/scripts/sf-numerictextbox-dc8eab.min.js",
+        "staticwebassets/scripts/sf-signature-dc8eab.min.js",
+        "staticwebassets/scripts/sf-slider-dc8eab.min.js",
+        "staticwebassets/scripts/sf-textbox-dc8eab.min.js",
+        "staticwebassets/scripts/sf-uploader-dc8eab.min.js",
+        "syncfusion.blazor.inputs.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.inputs.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Lists/20.1.0.50": {
+      "sha512": "5HOy1h0I71Irwp3uVrmIvSHzIlYyNWjaP7uefjOFRMsi6xT7FKp+u7ytABm0LXSmTrmsbuVTcaSJ2FxxnnbwhA==",
+      "type": "package",
+      "path": "syncfusion.blazor.lists/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Lists.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Lists.props",
+        "buildTransitive/Syncfusion.Blazor.Lists.props",
+        "lib/net5.0/Syncfusion.Blazor.Lists.dll",
+        "lib/net5.0/Syncfusion.Blazor.Lists.xml",
+        "lib/net6.0/Syncfusion.Blazor.Lists.dll",
+        "lib/net6.0/Syncfusion.Blazor.Lists.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Lists.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Lists.xml",
+        "staticwebassets/scripts/sf-listview-dc8eab.min.js",
+        "syncfusion.blazor.lists.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.lists.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Navigations/20.1.0.50": {
+      "sha512": "xBhDMX0/UzayKye6dSdxKNtKYswsWc7SRT6TqoZYH2YLERiFpepyIPSzoWXzSXxNvvcvKqRk3VBqWBvUJn0m4A==",
+      "type": "package",
+      "path": "syncfusion.blazor.navigations/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Navigations.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Navigations.props",
+        "buildTransitive/Syncfusion.Blazor.Navigations.props",
+        "lib/net5.0/Syncfusion.Blazor.Navigations.dll",
+        "lib/net5.0/Syncfusion.Blazor.Navigations.xml",
+        "lib/net6.0/Syncfusion.Blazor.Navigations.dll",
+        "lib/net6.0/Syncfusion.Blazor.Navigations.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Navigations.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Navigations.xml",
+        "staticwebassets/scripts/navigationsbase-dc8eab.min.js",
+        "staticwebassets/scripts/sf-accordion-dc8eab.min.js",
+        "staticwebassets/scripts/sf-breadcrumb-dc8eab.min.js",
+        "staticwebassets/scripts/sf-contextmenu-dc8eab.min.js",
+        "staticwebassets/scripts/sf-menu-dc8eab.min.js",
+        "staticwebassets/scripts/sf-sidebar-dc8eab.min.js",
+        "staticwebassets/scripts/sf-tab-dc8eab.min.js",
+        "staticwebassets/scripts/sf-toolbar-dc8eab.min.js",
+        "staticwebassets/scripts/sf-treeview-dc8eab.min.js",
+        "syncfusion.blazor.navigations.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.navigations.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Popups/20.1.0.50": {
+      "sha512": "4w/E5IJUw3RKGdpzYqR19yr9ix7/v4levpGzwwnRb9ksm8y/+J1swjPVmObvtmop1z0aGcB3AQS6ZoTia9ksWQ==",
+      "type": "package",
+      "path": "syncfusion.blazor.popups/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Popups.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Popups.props",
+        "buildTransitive/Syncfusion.Blazor.Popups.props",
+        "lib/net5.0/Syncfusion.Blazor.Popups.dll",
+        "lib/net5.0/Syncfusion.Blazor.Popups.xml",
+        "lib/net6.0/Syncfusion.Blazor.Popups.dll",
+        "lib/net6.0/Syncfusion.Blazor.Popups.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Popups.xml",
+        "staticwebassets/scripts/sf-dialog-dc8eab.min.js",
+        "staticwebassets/scripts/sf-tooltip-dc8eab.min.js",
+        "syncfusion.blazor.popups.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.popups.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Spinner/20.1.0.50": {
+      "sha512": "dODghS6d+XqJ8da5kZkiyYXPDfpouy/TtZemrxF+5eXrlaauf808ESY3fSLtFfJ+iSfG0ANw124WSIjwNW9jsg==",
+      "type": "package",
+      "path": "syncfusion.blazor.spinner/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Spinner.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Spinner.props",
+        "buildTransitive/Syncfusion.Blazor.Spinner.props",
+        "lib/net5.0/Syncfusion.Blazor.Spinner.dll",
+        "lib/net5.0/Syncfusion.Blazor.Spinner.xml",
+        "lib/net6.0/Syncfusion.Blazor.Spinner.dll",
+        "lib/net6.0/Syncfusion.Blazor.Spinner.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Spinner.xml",
+        "staticwebassets/scripts/sf-spinner-dc8eab.min.js",
+        "staticwebassets/scripts/spinner-dc8eab.min.js",
+        "syncfusion.blazor.spinner.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.spinner.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.SplitButtons/20.1.0.50": {
+      "sha512": "5No7tVB6qywoKy757bEcs/gKej5/DLBoZXHM3COAjZKRlK3hrLFXv6reADLkfSngU7WIalnvhB89cYbUAfWahA==",
+      "type": "package",
+      "path": "syncfusion.blazor.splitbuttons/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.SplitButtons.props",
+        "buildMultiTargeting/Syncfusion.Blazor.SplitButtons.props",
+        "buildTransitive/Syncfusion.Blazor.SplitButtons.props",
+        "lib/net5.0/Syncfusion.Blazor.SplitButtons.dll",
+        "lib/net5.0/Syncfusion.Blazor.SplitButtons.xml",
+        "lib/net6.0/Syncfusion.Blazor.SplitButtons.dll",
+        "lib/net6.0/Syncfusion.Blazor.SplitButtons.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.xml",
+        "staticwebassets/scripts/sf-drop-down-button-dc8eab.min.js",
+        "staticwebassets/scripts/splitbuttonsbase-dc8eab.min.js",
+        "syncfusion.blazor.splitbuttons.20.1.0.50.nupkg.sha512",
+        "syncfusion.blazor.splitbuttons.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/20.1.0.50": {
+      "sha512": "sQBaysAP2fQ0ISeJjowl7wpiLjAwTUKxvQrft+QYTtjYbaUSxfoEh7tYi2/Pgs8qnGIrp+6PzIALI9bcVFPflw==",
+      "type": "package",
+      "path": "syncfusion.licensing/20.1.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.20.1.0.50.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -2581,6 +3121,87 @@
         "version.txt"
       ]
     },
+    "System.Text.Encodings.Web/6.0.0": {
+      "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "type": "package",
+      "path": "system.text.encodings.web/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.6.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/6.0.0": {
+      "sha512": "zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+      "type": "package",
+      "path": "system.text.json/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "build/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/net6.0/System.Text.Json.dll",
+        "lib/net6.0/System.Text.Json.xml",
+        "lib/netcoreapp3.1/System.Text.Json.dll",
+        "lib/netcoreapp3.1/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.6.0.0.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "type": "package",
@@ -2611,13 +3232,16 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BlazorAnimate >= 3.0.0",
+      "BlazorInputFile >= 0.2.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 6.0.1",
       "Models.App >= 1.0.0",
-      "MudBlazor >= 6.0.9"
+      "MudBlazor >= 6.0.9",
+      "Syncfusion.Blazor.Navigations >= 20.1.0.50"
     ]
   },
   "packageFolders": {
@@ -2626,11 +3250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj",
+      "projectUniqueName": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj",
       "projectName": "BlazorClientApp",
-      "projectPath": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\BlazorClientApp.csproj",
+      "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\BlazorClientApp.csproj",
       "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-      "outputPath": "H:\\asp dot net\\FetchApiBlazor\\BlazorClientApp\\obj\\",
+      "outputPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\BlazorClientApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2647,8 +3271,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj": {
-              "projectPath": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj"
+            "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj": {
+              "projectPath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj"
             }
           }
         }
@@ -2666,6 +3290,10 @@
           "BlazorAnimate": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "BlazorInputFile": {
+            "target": "Package",
+            "version": "[0.2.0, )"
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -2687,9 +3315,17 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "MudBlazor": {
             "target": "Package",
             "version": "[6.0.9, )"
+          },
+          "Syncfusion.Blazor.Navigations": {
+            "target": "Package",
+            "version": "[20.1.0.50, )"
           }
         },
         "imports": [
@@ -2710,7 +3346,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

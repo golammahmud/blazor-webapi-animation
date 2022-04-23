@@ -1,0 +1,13 @@
+﻿@page "/file"
+@inherits FilesBase
+<h3>Multiple File Upload</h3>
+
+<InputFile multiple @OnChange="HandleFileSelected"  class="btn-primary"/>
+
+@if (file != null)
+{
+   <p>Name: @file.Name</p>
+   <p>Size in bytes: @file.Size</p>
+    <p>Last modified date: @file.LastModified.ToShortDateString()</p>
+    <p>Content type (not always supplied by the browser): @file.Type</p>
+}

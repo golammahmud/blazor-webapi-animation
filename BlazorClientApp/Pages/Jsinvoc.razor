@@ -1,0 +1,70 @@
+﻿@page "/jstest"
+@using System.Security.Cryptography.X509Certificates
+@inject IJSRuntime JS
+<h3>jsinvoc</h3>
+<button @onclick="showAlert" class="btn btn-info">show alert</button>
+<br/><br/>
+<h2>Ask A Question</h2>
+<input type="text" @bind="QuestionText" class="bg-info">
+<button class="btn btn-danger" @onclick="AskquestionCs">Ask Question </button>
+<div>The Answer <span id="answerSpan"></span></div>
+<br/>
+<h2>please Focuse</h2>
+<input @ref="InputToFocus" />
+<button class="btn btn-light" @onclick="Focus">Focus</button>
+
+<br>
+<br/>
+<h5>@Message</h5>
+
+<button id="button1" @*@onclick="OnButton1Click"*@>
+  Click to invoke JS function
+</button>
+@code {
+    public string Message { get; set; }
+
+    /*public async void OnButton1Click(MouseEventArgs e)
+    {
+        try
+        {
+            Message = await JS.InvokeAsync<string>
+                ("GetMessage", "World");
+        }
+        catch (JSException ex)
+        {
+            Message = ex.Message;
+        }
+        StateHasChanged();
+      
+    }*/
+  
+    public string QuestionText { get; set; }= string.Empty;
+    ElementReference InputToFocus { get; set; }
+    protected override async void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("focus", InputToFocus);
+            Message = await JS.InvokeAsync<string>
+                ("GetMessage", "Galaxy");
+        }
+    }
+
+    async Task Focus()
+    {
+        await JS.InvokeVoidAsync("focus", InputToFocus);
+    }
+
+    async Task AskquestionCs()
+    {
+        var response = await JS.InvokeAsync<string>("AskQuestion", QuestionText);
+        await JS.InvokeVoidAsync("setElementById", "answerSpan", response);
+    }
+
+    async Task showAlert()
+    {
+        await JS.InvokeVoidAsync("createAlert");
+    }
+    
+
+}

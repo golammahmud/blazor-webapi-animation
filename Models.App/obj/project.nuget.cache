@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eJZC2xDptZWuWMFp0Lcpk78RU+q5qt40Xu5WX/6pDVbU8QbsZRYzGMppwLYUsU+RJsuEGnVOK1JPNa4xZsW/mw==",
+  "dgSpecHash": "Zzz9pdys8sR6xt3gwdE4ltn6YbJJxWJ+DPch71Zc7vfOU4TmbzYlfRLNgmG0C9GnNhisw2yhdXO2B76LqioUGg==",
   "success": true,
-  "projectFilePath": "H:\\asp dot net\\FetchApiBlazor\\Models.App\\Models.App.csproj",
+  "projectFilePath": "H:\\asp dot net\\FetchApiBlazor\\blazor-webapi-animation\\Models.App\\Models.App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
